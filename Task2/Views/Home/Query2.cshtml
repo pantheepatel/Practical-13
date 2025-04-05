@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Task2.Models.Query2>
+
+<h2>Employee Count by Designation</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Designation</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DesignationName</td>
+                <td>@item.EmployeeCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
