@@ -44,5 +44,4 @@ If you encounter any issues during migration:
 
 - Verify your SQL Server is running
 - Ensure the connection string points to the correct SQL Server instance
-- Check that you have sufficient permissions to create and modify databases
 - Make sure all required NuGet packages are installed
